@@ -77,7 +77,7 @@ public class StreetNumbers {
 		diff = tFin - tIni;
 		System.out.println("  Tiempo de ejecucion del iterativoLinealConGauss  "+diff);
 		System.out.println("-----------------------------------------");
-        tIni = System.currentTimeMillis();
+                tIni = System.currentTimeMillis();
 		System.out.print(iterativoLineal(n));
 		tFin = System.currentTimeMillis();
 		diff = tFin - tIni;
@@ -93,7 +93,7 @@ public class StreetNumbers {
 	}	
 }
 
-//		   6         8
+//	       6         8
 //	      35        49
 //	     204       288
 //	    1189      1681
